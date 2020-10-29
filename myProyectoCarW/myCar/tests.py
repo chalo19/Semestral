@@ -17,9 +17,5 @@ def grabar_mision_y_vision(self):
             valor = 0
         self.assertEqual(valor,1)
 
-def listar_mision(self):
-    lm= MisionyVision.objects.all()
-    self.assertIsInstance(lm,MisionyVision)
-        
 if __name__ == "__main__":
     unittest.main()
